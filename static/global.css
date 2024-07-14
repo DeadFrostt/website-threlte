@@ -1,0 +1,61 @@
+body {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  font-family: 'Roboto Mono', monospace; /* Set a default font */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Disable scrolling */
+}
+
+#vanta-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  text-align: left; /* Align text to the left */
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px; /* Set font size for the title */
+  font-weight: bold; /* Bold font */
+  margin: 0 0 24px; /* Add some space below the title */
+  animation: fadeIn 2s; /* Fade in animation */
+}
+
+p {
+  font-size: 18px; /* Set font size for the text */
+  margin: 0 0 16px; /* Add some space below the text */
+  animation: fadeIn 2s; /* Fade in animation */
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.875rem;
+  color: #666;
+  animation: fadeIn 2s; /* Fade in animation */
+}
+
+.text-2xl {
+  animation: fadeIn 2s; /* Fade in animation */
+}
