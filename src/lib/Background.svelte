@@ -30,7 +30,8 @@
                   lowlightColor: 0xff0000,
                   baseColor: 0x90909,
                   blurFactor: 0.50,
-                  zoom: 0.90
+                  zoom: 0.90,
+                  speed: 0.20
               });
           } else {
               console.error('VANTA is not defined');
