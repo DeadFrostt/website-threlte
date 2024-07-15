@@ -1,7 +1,7 @@
 <style>
 /* Link styling */
 a {
-  color: #ff1493;
+  color: #ff0000;
   text-decoration: underline; 
   animation: fadeIn 2s; /* Fade in animation */
 }
