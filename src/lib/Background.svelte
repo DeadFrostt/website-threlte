@@ -40,7 +40,7 @@
 	// vanta cannot load without three loaded
 	// so instead, we load three before loading vanta
 	//
-	// before Promise.all was being used which runs all promises simultaneously, 
+	// before Promise.all was being used which runs all promises simultaneously,
 	// when in this case, that should be run in sequence
 	const import_modules = async () => {
 		await loadScript('https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js');
